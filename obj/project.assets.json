@@ -2784,9 +2784,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kauad\\Desktop\\DayNotes\\API_REST_autenticação_JWT.csproj",
-      "projectName": "API_REST_autenticação_JWT",
-      "projectPath": "C:\\Users\\kauad\\Desktop\\DayNotes\\API_REST_autenticação_JWT.csproj",
+      "projectUniqueName": "C:\\Users\\kauad\\Desktop\\DayNotes\\DayNotes.API.csproj",
+      "projectName": "DayNotes.API",
+      "projectPath": "C:\\Users\\kauad\\Desktop\\DayNotes\\DayNotes.API.csproj",
       "packagesPath": "C:\\Users\\kauad\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\kauad\\Desktop\\DayNotes\\obj\\",
       "projectStyle": "PackageReference",

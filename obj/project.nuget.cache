@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W67ny+wLJSY=",
+  "dgSpecHash": "69dKYJ1J92w=",
   "success": true,
-  "projectFilePath": "C:\\Users\\kauad\\Desktop\\DayNotes\\API_REST_autenticação_JWT.csproj",
+  "projectFilePath": "C:\\Users\\kauad\\Desktop\\DayNotes\\DayNotes.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kauad\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\kauad\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\10.0.6\\microsoft.aspnetcore.authentication.jwtbearer.10.0.6.nupkg.sha512",
