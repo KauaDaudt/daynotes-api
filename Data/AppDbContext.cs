@@ -3,8 +3,12 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DayNotes.API.Data;
 
-public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(options)
+public class AppDbContext : DbContext
 {
-    public DbSet<Note> Notes => Set<Note>();
-    public DbSet<User> Users => Set<User>();
+    public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
+    {
+    }
+
+    public DbSet<User> Users { get; set; }
+    public DbSet<Note> Notes { get; set; }
 }

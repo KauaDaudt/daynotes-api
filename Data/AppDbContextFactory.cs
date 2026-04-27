@@ -1,15 +1,16 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 
-namespace DayNotes.API.Data;
-
-public class AppDbContextFactory : IDesignTimeDbContextFactory<AppDbContext>
+namespace DayNotes.API.Data
 {
-    public AppDbContext CreateDbContext(string[] args)
+    public class AppDbContextFactory : IDesignTimeDbContextFactory<DayNotes.API.Data.AppDbContext>
     {
-        var optionsBuilder = new DbContextOptionsBuilder<AppDbContext>();
-        optionsBuilder.UseSqlite("Data Source=daynotes.db");
+        public DayNotes.API.Data.AppDbContext CreateDbContext(string[] args)
+        {
+            var optionsBuilder = new DbContextOptionsBuilder<DayNotes.API.Data.AppDbContext>();
+            optionsBuilder.UseSqlite("Data Source=daynotes.db");
 
-        return new AppDbContext(optionsBuilder.Options);
+            return new DayNotes.API.Data.AppDbContext(optionsBuilder.Options);
+        }
     }
 }
